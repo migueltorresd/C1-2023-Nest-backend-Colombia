@@ -47,7 +47,7 @@ var carro1 = /** @class */ (function () {
     }
     carro1.prototype.operation = function () {
         console.log('-----------------------amarillo-----------------------------');
-        return '{resultado es tipocarro1}';
+        return '{taxi es tipocarro1}';
     };
     return carro1;
 }());
@@ -56,7 +56,7 @@ var carro2 = /** @class */ (function () {
     }
     carro2.prototype.operation = function () {
         console.log('-----------------------rojos-----------------------------');
-        return '{resultado es tipocarro2}';
+        return '{familiar es tipocarro2}';
     };
     return carro2;
 }());

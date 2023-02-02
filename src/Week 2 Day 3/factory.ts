@@ -23,14 +23,14 @@ interface carro {
 class carro1 implements carro {
   public operation(): string {
     console.log('-----------------------amarillo-----------------------------');
-    return '{resultado es tipocarro1}';
+    return '{taxi es tipocarro1}';
   }
 }
 
 class carro2 implements carro {
   public operation(): string {
     console.log('-----------------------rojos-----------------------------');
-    return '{resultado es tipocarro2}';
+    return '{familiar es tipocarro2}';
   }
 }
 
